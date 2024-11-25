@@ -1,0 +1,22 @@
+.Sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #FFB6C1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+.Profile {
+    font-size: 20px ;
+    margin-top: -55px ;
+    margin-left: 95px ;
+}
+
+.Pict {
+    height: 70px;
+    border-radius: 20px;
+    border: dashed;
+}

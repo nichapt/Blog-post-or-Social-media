@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate,useLocation } from 'react-router-dom';
+import Sidebar from './Sidebar';
 import './App.css';
 
 function App() {
@@ -54,16 +55,9 @@ function Dashboard() {
   const username = location.state?.username || 'Guest';
 
   return (
-    <h1
-     style={{
-      color: '#DB7093',  
-      textAlign: 'Center',
-      fontSize: '36px',
-      paddingTop: '20px',
-     }}
-    >
-     ขอให้{username}มีผัวรวยๆจ้า
-    </h1>
+    <div>
+      <Sidebar/>
+    </div>
   );
 }
 
